@@ -1,5 +1,6 @@
 
 
+# push 
 
 def display(col, line):
     print("You can go to {}")
