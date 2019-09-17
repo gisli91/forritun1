@@ -1,10 +1,6 @@
 #Useless comment from teacher
 
 
-def display(col, line):
-    print("You can go to {}")
-
-
 def where(col, line):
     if col == 1:
         if line == 1:
@@ -29,6 +25,3 @@ def where(col, line):
             print("You can travel: (E)ast or (S)outh.")
 
 
-
-
-def mover(direction):
