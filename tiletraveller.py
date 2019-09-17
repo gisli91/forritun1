@@ -1,9 +1,19 @@
-#Useless comment from teacher
+
 
 
 def display(col, line):
     print("You can go to {}")
 
+def make_move(user_move, col, line):
+    if user_move == "n":
+        line += 1
+    elif user_move == "s":
+        line -= 1
+    elif user_move == "e":
+        col += 1
+    elif user_move == "w":
+        col -= 1
+    return line, col
 
 def where(col, line):
     if col == 1:
